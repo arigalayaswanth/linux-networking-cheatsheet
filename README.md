@@ -1,12 +1,15 @@
-# linux-networking-cheatsheet
-Linux networking commands with purpose, real-world examples, and screenshots
 # Linux Networking Commands Cheatsheet
+This project demonstrates core Linux networking commands with their purpose,
+real-world use cases, and actual command output screenshots taken from Ubuntu
+running inside VirtualBox.
 
 This project demonstrates core Linux networking commands with their purpose,
 real-world use cases, and actual command output screenshots taken from Ubuntu.
 
-##1️⃣ `ip a`
-**Command:**
+---
+
+##1️⃣ ip a
+###Command:
 ```bash
 ip a
 
@@ -21,8 +24,8 @@ Used to identify the system’s IP address and check whether a network interface
 ![ip a](screenshots/ip-a.png)
 
 
-##2️⃣ `ip route`
-**Command:**
+##2️⃣ ip route
+###Command:
 ```bash
 ip route
 
@@ -36,8 +39,8 @@ Helps determine the default router and understand how network traffic is routed.
 ![ip route](screenshots/ip-route.png)
 
 
-##3️⃣ `ping`
-**Command:**
+##3️⃣ ping
+###Command:
 ```bash
 ping -c 4 8.8.8.8
 
@@ -51,8 +54,8 @@ Used to check whether the internet or a remote server is reachable.
 ![ping](screenshots/ping.png)
 
 
-##4️⃣ `traceroute`
-**Command:**
+##4️⃣ traceroute
+###Command:
 ```bash
 traceroute google.com
 
@@ -65,8 +68,8 @@ Used to identify where network delays or packet loss occur across networks.
 Screenshot:
 ![traceroute](screenshots/traceroute.png)
 
-#35️⃣ `ss`
-**Command:**
+##5️⃣ ss
+###Command:
 ```bash
 ss -tulpen
 
@@ -79,8 +82,8 @@ Used by system administrators to check which services are listening on which por
 Screenshot:
 ![ss](screenshots/ss.png)
 
-##6️⃣ `netstat`
-**Command:**
+##6️⃣ netstat
+###Command:
 ```bash
 netstat -tulpen
 
