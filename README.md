@@ -1,13 +1,24 @@
 # Linux Networking Commands Cheatsheet
+---
 This project demonstrates core Linux networking commands with their purpose,
 real-world use cases, and actual command output screenshots taken from Ubuntu
 running inside VirtualBox.
----
 
 
+##1️⃣ ip a
+###Command:
+```bash
+ip a
 
+Purpose:
+Displays all network interfaces along with their IP addresses and status.
 
+Real-world example:
+Used to identify the system’s IP address and check whether a network interface
+(eth0 or wlan0) is up and running.
 
+**Screenshot:**
+![ip a](screenshots/ip-a.png)
 
 ##2️⃣ ip route
 ###Command:
