@@ -6,20 +6,7 @@ running inside VirtualBox.
 
 
 
-##1️⃣ ip a
-###Command:
-```bash
-ip a
 
-Purpose:
-Displays all network interfaces along with their IP addresses and status.
-
-Real-world example:
-Used to identify the system’s IP address and check whether a network interface
-(eth0 or wlan0) is up and running.
-
-**Screenshot:**
-![ip a](screenshots/ip-a.png)
 
 
 ##2️⃣ ip route
