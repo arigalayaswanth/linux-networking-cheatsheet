@@ -2,10 +2,6 @@
 This project demonstrates core Linux networking commands with their purpose,
 real-world use cases, and actual command output screenshots taken from Ubuntu
 running inside VirtualBox.
-
-This project demonstrates core Linux networking commands with their purpose,
-real-world use cases, and actual command output screenshots taken from Ubuntu.
-
 ---
 
 ##1️⃣ ip a
