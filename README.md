@@ -89,5 +89,6 @@ Displays network connections, routing tables, and listening ports (legacy tool).
 
 Real-world example:
 Used for troubleshooting network services on older Linux systems.
-![netstat](screenshots/netstat.png)
+
 **Screenshot:**
+![netstat](screenshots/netstat.png)
